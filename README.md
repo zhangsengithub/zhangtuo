@@ -7,8 +7,8 @@ zhangsen
 2.今天把所要做的事情,列个清单,然后写出了.文学修养,数学公式,计算机编程的时间
 1，把《简爱》读到60页。
 2，蹲起20个。
-git status
+git statusgit
 git add *
 git commit -m "任务"
 git push
-
+1,看完《领导力21条法则》的第20条法则 （爆炸性倍增法则）。
