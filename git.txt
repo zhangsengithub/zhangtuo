@@ -1,0 +1,17 @@
+git pull的时候出现如下的错误： 
+ 
+Pull is not possible because you have unmerged files.
+
+本地的push和merge会形成MERGE-HEAD(FETCH-HEAD), HEAD（PUSH-HEAD）这样的引用。HEAD代表本地最近成功push后形成的引用。MERGE-HEAD表示成功pull后形成的引用。可以通过MERGE-HEAD或者HEAD来实现类型与svn revet的效果。
+
+解决：
+1.将本地的冲突文件冲掉，不仅需要reset到MERGE-HEAD或者HEAD,还需要–hard。没有后面的hard，不会冲掉本地工作区。只会冲掉stage区。
+
+git reset –hard FETCH_HEAD
+
+2.git pull就会成功。
+--------------------- 
+作者：25King 
+来源：CSDN 
+原文：https://blog.csdn.net/u012426959/article/details/78944001 
+版权声明：本文为博主原创文章，转载请附上博文链接！
