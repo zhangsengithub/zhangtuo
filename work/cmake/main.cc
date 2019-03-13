@@ -1,26 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
-/**
- * power - Calculate the power of number.
- * @param base: Base value.
- * @param exponent: Exponent value.
- *
- * @return base raised to the power exponent.
- */
-double power(double base, int exponent)
-{
-    int result = base;
-    int i;
-    
-    if (exponent == 0) {
-        return 1;
-    }
-    
-    for(i = 1; i < exponent; ++i){
-        result = result * base;
-    }
-    return result;
-}
+#include <stdio.h>
+#include "config.h"
+#ifdef USE_MYMATH
+  #include "math/MathFunctions.h"
+#else
+  #include 
+#endif
 int main(int argc, char *argv[])
 {
     if (argc < 3){
@@ -29,7 +14,14 @@ int main(int argc, char *argv[])
     }
     double base = atof(argv[1]);
     int exponent = atoi(argv[2]);
+    
+#ifdef USE_MYMATH
+    printf("Now we use our own Math library. \n");
     double result = power(base, exponent);
+#else
+    printf("Now we use the standard library. \n");
+    double result = pow(base, exponent);
+#endif
     printf("%g ^ %d is %g\n", base, exponent, result);
     return 0;
 }
