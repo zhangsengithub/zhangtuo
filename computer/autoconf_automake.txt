@@ -1,0 +1,6 @@
+第一步
+hellow.c
+configure.in
+Makefile.in
+
+aclocal; autoconf; automake --add-missing; ./configure; make; ./helloworld

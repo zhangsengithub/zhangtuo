@@ -1,0 +1,3 @@
+/Users/baidu/zhangsen/zhangtuo/work/cmake_demo/cmake-demo/Demo1/CMakeFiles/Demo.dir
+/Users/baidu/zhangsen/zhangtuo/work/cmake_demo/cmake-demo/Demo1/CMakeFiles/ALL_BUILD.dir
+/Users/baidu/zhangsen/zhangtuo/work/cmake_demo/cmake-demo/Demo1/CMakeFiles/ZERO_CHECK.dir

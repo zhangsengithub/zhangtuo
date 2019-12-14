@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -dynamiclib -Wl,-headerpad_max_install_names  -o libhellod.dylib -install_name /Users/baidu/zhangsen/zhangtuo/computer/hellow/libhellod.dylib CMakeFiles/hellod.dir/hello.c.o 

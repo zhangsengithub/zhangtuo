@@ -1,0 +1,8 @@
+message($CMAKE_MAJOR_VERSION)
+message("build with debug mode")
+message(FATAL_ERROR "this build has many error")
+cmake_minimum_required (VERSION 2.8)
+project(HELLO)
+add_executable(hello hello.c)
+add_library(hellos STATIC hello.c)
+add_library(hellod SHARED hello.c)

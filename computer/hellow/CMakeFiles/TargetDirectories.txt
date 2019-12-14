@@ -1,0 +1,5 @@
+/Users/baidu/zhangsen/zhangtuo/computer/hellow/CMakeFiles/rebuild_cache.dir
+/Users/baidu/zhangsen/zhangtuo/computer/hellow/CMakeFiles/edit_cache.dir
+/Users/baidu/zhangsen/zhangtuo/computer/hellow/CMakeFiles/hellod.dir
+/Users/baidu/zhangsen/zhangtuo/computer/hellow/CMakeFiles/hellos.dir
+/Users/baidu/zhangsen/zhangtuo/computer/hellow/CMakeFiles/hello.dir

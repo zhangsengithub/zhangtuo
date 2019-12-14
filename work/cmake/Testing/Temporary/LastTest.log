@@ -1,0 +1,38 @@
+Start testing: Mar 13 19:25 CST
+----------------------------------------------------------
+1/2 Testing: test_run
+1/2 Test: test_run
+Command: "/Users/baidu/zhangsen/zhangtuo/work/cmake/Demo" "5" "4"
+Directory: /Users/baidu/zhangsen/zhangtuo/work/cmake
+"test_run" start time: Mar 13 19:25 CST
+Output:
+----------------------------------------------------------
+Now we use our own Math library. 
+5 ^ 4 is 625
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_run" end time: Mar 13 19:25 CST
+"test_run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: test_usage
+2/2 Test: test_usage
+Command: "/Users/baidu/zhangsen/zhangtuo/work/cmake/Demo"
+Directory: /Users/baidu/zhangsen/zhangtuo/work/cmake
+"test_usage" start time: Mar 13 19:25 CST
+Output:
+----------------------------------------------------------
+Usage: /Users/baidu/zhangsen/zhangtuo/work/cmake/Demo base exponent 
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage: .* base exponent
+]
+"test_usage" end time: Mar 13 19:25 CST
+"test_usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 13 19:25 CST
