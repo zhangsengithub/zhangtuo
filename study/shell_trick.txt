@@ -21,3 +21,15 @@ if [ $result -eq 1 ]; then
       echo "Network is Open."
 else
       echo "Network is Closed."
+
+
+#!/bin/bash
+IPADDR=$1
+a=0
+cat $IPADDR | while read line
+do
+echo $line
+scp  file $line:file
+let a=a+1
+done
+echo $a
